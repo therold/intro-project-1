@@ -14,6 +14,10 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _No setup or installation is required._
 * _Simply open index.html in a web browser._
 
+## GitHub Pages
+
+_This portfolio can also be viewed on [this](https://therold.github.io/portfolio/) GitHub page._
+
 ## Technologies Used
 
 * _HTML_
