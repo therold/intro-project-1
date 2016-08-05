@@ -2,28 +2,6 @@ body {
   padding-top: 60px;
 }
 
-.project-title {
-  text-align: center;
-  color: #b2b8bc;
-  border: 2px solid #072d4b;
-  background: #001728;
-  padding: 4px;
-}
-
-.section-project {
-  margin-top: 20px;
-  padding-left:3px;
-  padding-right: 3px;
-}
-
-.project-descriptor {
-  font-weight: bold;
-}
-
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
-}
-
 .profile-img {
   float: left;
   padding-right: 10px;
@@ -41,16 +19,4 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 
 .no-bullets {
   list-style: none;
-}
-
-/* This section is to fix the anchor links in index.html
-   Without this the anchor links loads behind the navbar */
-#my-first-website,
-#band-website,
-#blogging-website,
-#shelter-website,
-#resort-website,
-#vacation-website {
-  padding-top: 40px;
-  margin-top: -40px;
 }

@@ -12,20 +12,7 @@
       <div class="container">
         <a class="navbar-brand">Timothy Herold</a>
         <ul class="nav navbar-nav nav-pills pull-right">
-          <li class="active dropdown">
-            <a data-toggle="dropdown" data-target="#" href="index.html">Projects <span class="caret"></span></a>
-            <ul class="dropdown-menu">
-              <li><a href="index.html#my-first-website">My First Website</a></li>
-              <li><a href="index.html#band-website">Band Website</a></li>
-              <li><a href="index.html#blogging-website">Blogging Website</a></li>
-              <li><a href="index.html#shelter-website">Animal Shelter Website</a></li>
-              <li><a href="index.html#resort-website">Resort Website</a></li>
-              <li><a href="index.html#vacation-website">Vacation Website</a></li>
-            </ul>
-          </li>
-          <li>
-            <a href="about-me.html">About Me</a>
-          </li>
+          <li><a class="active" href="#">Portfolio</a></li>
         </ul>
       </div>
     </nav>
@@ -33,84 +20,182 @@
 
     <!-- Main Content -->
     <div class="container">
-      <h3>My Projects</h3>
-      <p>These are just a few of the projects I'm working on. Feel free to <a href="mailto:heroldt@gmail.com">contact me</a> for any questions or comments.
+      <!-- About me -->
       <div class="row">
-        <!-- Main Content -->
-        <!-- my-first-website -->
-        <div class="col-sm-6 col-lg-4" id="my-first-website">
-          <h3 class="project-title" >My First Website</h3>
-          <a href="https://therold.github.io/my-first-website/">
-            <img class="img-thumbnail img-responsive" src="img/my-first-website-thumb.png" alt="An image of the My First Website project">
-          </a>
-          <p><strong>About:</strong>This was my very first website! The goal of this project was to learn the basics of HTML and CSS.</p>
-          <p><strong>Technologies used:</strong> HTML and CSS</p>
-          <a href="https://github.com/therold/my-first-website">View on GitHub</a>
+        <div class="col-xs-12">
+          <div class="jumbotron">
+            <img class="img-responsive profile-img" src="img/tim2.jpg">
+            <h2>About me</h2>
+            <p>I'm an aspiring programmer, born and raised in Portland, Oregon. Currently attending the <a href="http://www.epicodus.com/">Epicodus</a> software development school. </p>
+          </div>
         </div>
-        <!-- End my-first-website -->
-
-        <!-- band-website -->
-        <div class="col-sm-6 col-lg-4 section-project" id="band-website">
-          <h3 class="project-title">Band Website</h3>
-          <a href="https://therold.github.io/band-website">
-            <img class="img-thumbnail img-responsive" src="img/band-website-thumb.png" alt="An image of the Band Website project">
-          </a>
-          <p><strong>About:</strong> This project was to build a website for our favorite band. Our primary goal was to learn about web layout using floats.</p>
-          <p><strong>Technologies used:</strong> HTML and CSS</p>
-          <a href="https://github.com/therold/band-website">View on GitHub</a>
+      </div>
+      <!-- End About Me -->
+      <!-- Work History -->
+      <div class="row">
+        <div class=col-xs-6>
+          <h3 class="about-me-cat">Work History</h3>
+          <p class="about-me-cat"><em>Experience makes us stronger!</em></p>
+          <ol>
+            <li>
+              <p class="work-dates">Oct 2015 - Aug 2016</p>
+              <p><strong>US Bank</strong></p>
+              <p><em>IT Specialist:</em> Duties included assisting internal users with various technical issues. Desktop and mobile support included.
+            </li>
+            <li>
+              <p class="work-dates">May 2012 - Oct 2015</p>
+              <p><strong>Rodda Paint</strong></p>
+              <p><em>Quality Control Supervisor:</em> Directly supervised small team of employees. Maintained all quality control records for 500-employee manufacturer. Developed new quality control data tracking system in C# and SQL.</p>
+            </li>
+          </ol>
         </div>
-        <!-- End band-website -->
-
-        <!-- blogging-website -->
-        <div class="col-sm-6 col-lg-4 section-project" id="blogging-website">
-          <h3 class="project-title">Blogging Website</h3>
-          <a href="https://therold.github.io/blogging-site/">
-            <img class="img-thumbnail img-responsive" src="img/blogging-website-thumb.png" alt="An image of the Blogging Website project">
-          </a>
-          <p><strong>About:</strong> This project was to create an imaginary blogging site. Our main focus was on using divs and spans to style the page. </p>
-          <p><strong>Technologies used:</strong> HTML and CSS</p>
-          <a href="https://github.com/therold/blogging-site">View on GitHub</a>
+        <!-- End Work History -->
+        <!-- Education -->
+        <div class=col-xs-6>
+          <h3 class=about-me-cat>Education</h3>
+          <p class="about-me-cat"><em>You never stop learning in life.</em></p>
+          <ol>
+            <li>
+              <p class="work-dates">Expected graduation Jan 2017</p>
+              <p><strong>Epicodus</strong></p>
+              <p>Currently attending Epicodus programming school. Expecting to cover a number of topic including HTML/CSS, Java, JavaScript, and Android development.</p>
+            </li>
+            <li>
+              <p class="work-dates">Sept 2007 - June 2008</p>
+              <p><Strong>Portland Community College</strong></p>
+              <p>Attended part-time as a general studies student while also working full-time. Passed several college-level courses in math, writing, and chemistry.
+            </li>
+          </ol>
         </div>
-        <!-- End blogging-website -->
-
-        <!-- shelter-website -->
-        <div class="col-sm-6 col-lg-4 section-project" id="shelter-website">
-          <h3 class="project-title">Shelter Website</h3>
-          <a href="https://therold.github.io/shelter-website/">
-            <img class="img-thumbnail img-responsive" src="img/shelter-website-thumb.png" alt="An image of the Animal Shelter Website project">
-          </a>
-          <p><strong>About:</strong> The goal of this site was to build a website for an imaginary Animal Shelter. We were primarily focused on learning about cascading properties in CSS.</p>
-          <p><strong>Technologies used:</strong> HTML and CSS</p>
-          <a href="https://github.com/therold/shelter-website">View on GitHub</a>
+        <!-- End Education -->
+      </div>
+      <div class="row">
+        <!-- Projects -->
+        <div class="col-xs-3">
+          <h3 class="about-me-cat">Projects</h3>
+          <p class="about-me-cat"><em>Work, work, work.</em></p>
+          <ul class="no-bullets">
+            <li>
+              <a data-toggle="modal" href="#my-first-website">My First Website</a>
+            </li>
+            <li>
+              <a data-toggle="modal" href="#shelter-website">Animal Shelter Website</a>
+            </li>
+            <li>
+              <a data-toggle="modal" href="#resort-website">Resort Website</a>
+            </li>
+            <li>
+              <a data-toggle="modal" href="#vacation-website">Vacation Website</a>
+            </li>
+          </ul>
         </div>
-        <!-- End shelter-website -->
-
-        <!-- resort-website -->
-        <div class="col-sm-6 col-lg-4 section-project"  id="resort-website">
-          <h3 class="project-title">Resort Website</h3>
-          <a href="https://therold.github.io/resort/">
-            <img class="img-thumbnail img-responsive" src="img/resort-website-thumb.png" alt="An image of the Resort Website project">
-          </a>
-          <p><strong>About:</strong> Our project was to build a site for a resort hotel. Our mission was to style the site two different ways using separate branches in Git, and then merge one of the branches back to master.</p>
-          <p><strong>Technologies used:</strong> HTML and CSS</p>
-          <a href="https://github.com/therold/resort">View on GitHub</a>
+        <!-- End Projects -->
+        <!-- Hobbies -->
+        <div class=col-xs-6>
+          <h3 class="about-me-cat">Hobbies</h3>
+          <p class="about-me-cat"><em>What's life without a little fun?</em></p>
+          <p>I have a number of hobbies, including programming, watching football, and looking at cat pictures on the internet. I've worked at a circuit board manufacturer long ago, and dabbled with circuit design myself. I love the mix of circuit design and software development you get from toying with an arduino microcontroller.</p>
         </div>
-        <!-- End resort-website -->
-
-        <!-- vacation-website -->
-        <div class="col-sm-6 col-lg-4 section-project" id="vacation-website">
-          <h3 class="project-title">Vacation Website</h3>
-          <a href="https://therold.github.io/vacation/">
-            <img class="img-thumbnail img-responsive testing" src="img/vacation-website-thumb.png" alt="An image of the Vacation Website project">
-          </a>
-          <p><strong>About:</strong> This project was to build a website for our favorite vacation spot using the Bootstrap framework. I've never been to New York, but I've always wanted to visit!</p>
-          <p><strong>Technologies used:</strong> HTML, CSS, and <a href="http://getbootstrap.com">Bootstrap</a>.</p>
-          <a href="https://github.com/therold/vacation">View on GitHub</a>
+        <!-- End Hobbies -->
+        <!-- Skills -->
+        <div class=col-xs-3>
+          <h3 class="about-me-cat">Skills</h3>
+          <p class="about-me-cat"><em>Knowledge makes us powerful!</em></p>
+          <ul>
+            <li>HTML/CSS</li>
+            <li>C#</li>
+            <li>SQL</li>
+            <li>Database design/managment</li>
+          </ul>
+          <p></p>
         </div>
-        <!-- End vacation-website -->
+        <!-- End Skills -->
       </div>
     </div>
     <!-- End Main Content -->
+    <!-- Modal - My First Website -->
+    <div class="modal fade" id="my-first-website">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+            <h4 class="modal-title">My First Website</h4>
+          </div>
+          <div class=modal-body>
+            <a href="https://therold.github.io/my-first-website/">
+              <img class="img-thumbnail img-responsive" src="img/my-first-website-thumb.png" alt="An image of the My First Website project">
+            </a>
+            <p><strong>About:</strong>This was my very first website! The goal of this project was to learn the basics of HTML and CSS.</p>
+            <p><strong>Technologies used:</strong> HTML and CSS</p>
+            <a href="https://github.com/therold/my-first-website">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Modal - Shelter Website -->
+    <div class="modal fade" id="shelter-website">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+            <h4 class="modal-title">Shelter Website</h4>
+          </div>
+          <div class=modal-body>
+            <a href="https://therold.github.io/shelter-website/">
+              <img class="img-thumbnail img-responsive" src="img/shelter-website-thumb.png" alt="An image of the Animal Shelter Website project">
+            </a>
+            <p><strong>About:</strong> The goal of this site was to build a website for an imaginary Animal Shelter. We were primarily focused on learning about cascading properties in CSS.</p>
+            <p><strong>Technologies used:</strong> HTML and CSS</p>
+            <a href="https://github.com/therold/shelter-website">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Modal - Resort Website -->
+    <div class="modal fade" id="resort-website">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+            <h4 class="modal-title">Resort Website</h4>
+          </div>
+          <div class=modal-body>
+            <a href="https://therold.github.io/resort/">
+              <img class="img-thumbnail img-responsive" src="img/resort-website-thumb.png" alt="An image of the Resort Website project">
+            </a>
+            <p><strong>About:</strong> Our project was to build a site for a resort hotel. Our mission was to style the site two different ways using separate branches in Git, and then merge one of the branches back to master.</p>
+            <p><strong>Technologies used:</strong> HTML and CSS</p>
+            <a href="https://github.com/therold/resort">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
+
+    <!-- Modal - Vacation Website -->
+    <div class="modal fade" id="vacation-website">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">X</button>
+            <h4 class="modal-title">Vacation Website</h4>
+          </div>
+          <div class=modal-body>
+            <a href="https://therold.github.io/vacation/">
+              <img class="img-thumbnail img-responsive testing" src="img/vacation-website-thumb.png" alt="An image of the Vacation Website project">
+            </a>
+            <p><strong>About:</strong> This project was to build a website for our favorite vacation spot using the Bootstrap framework. I've never been to New York, but I've always wanted to visit!</p>
+            <p><strong>Technologies used:</strong> HTML, CSS, and <a href="http://getbootstrap.com">Bootstrap</a>.</p>
+            <a href="https://github.com/therold/vacation">View on GitHub</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modal -->
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>
   </body>
