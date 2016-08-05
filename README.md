@@ -7,8 +7,8 @@
 
 ## Description
 
-_This is an online portfolio showcasing my work. It is writting in HTML/CSS using _
-_the [Bootstrap](http://getbootstrap.com) framework.
+_This is an online portfolio showcasing my work. It is writting in HTML/CSS using_
+_the [Bootstrap](http://getbootstrap.com) framework._
 
 ## Setup/Installation Requirements
 
