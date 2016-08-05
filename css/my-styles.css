@@ -26,3 +26,15 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   margin-right: 10px;
   margin-top: 20px;
 }
+
+/* This section is to fix the anchor links in index.html
+   Without this the anchor links loads behind the navbar */
+#my-first-website,
+#band-website,
+#blogging-website,
+#shelter-website,
+#resort-website,
+#vacation-website {
+  padding-top: 40px;
+  margin-top: -40px;
+}
