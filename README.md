@@ -1,13 +1,14 @@
 
 # _Portfolio_
 
-#### _An online porfolio showcasing my work, 8/5/2016_
+#### _An online porfolio, 8/5/2016_
 
 #### By _**Timothy Herold**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+_This is an online portfolio showcasing my work. It is writting in HTML/CSS using _
+_the [Bootstrap](http://getbootstrap.com) framework.
 
 ## Setup/Installation Requirements
 
