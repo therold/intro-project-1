@@ -2,6 +2,21 @@ body {
   padding-top: 60px;
 }
 
+.glyphicon, h3 {
+  font-size: 28px;
+  margin: 0px;
+}
+
+.glyphicon {
+  float: right;
+}
+
+.section-header {
+  background-color: #b2b8bc;
+  padding: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #001728;
+}
 .profile-img {
   float: left;
   padding-right: 10px;
@@ -13,7 +28,7 @@ body {
 }
 
 .about-me-cat {
-  text-align: center;
+text-align: center;
 
 }
 
