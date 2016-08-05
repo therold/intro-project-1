@@ -12,8 +12,16 @@
       <div class="container">
         <a class="navbar-brand">Timothy Herold</a>
         <ul class="nav navbar-nav nav-pills pull-right">
-          <li class="active">
-            <a href="#">Projects<span class="caret"></span></a>
+          <li class="active dropdown">
+            <a data-toggle="dropdown" data-target="#">Projects<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#my-first-website">My First Website</a></li>
+              <li><a href="#band-website">Band Website</a></li>
+              <li><a href="#">Blogging Website</a></li>
+              <li><a href="#">Animal Shelter Website</a></li>
+              <li><a href="#">Resort Website</a></li>
+              <li><a href="#">Vacation Website</a></li>
+            </ul>
           </li>
           <li>
             <a href="#">About Me</a>
@@ -40,7 +48,7 @@
         </div>
         < End Left Sidebar -->
         <!-- Main Content -->
-        <div class="col-xs-6 section-project">
+        <div class="col-sm-6 section-project">
           <!-- Projects -->
           <!-- my-first-website -->
           <h3 class="project-title" id="my-first-website">My First Website</h3>
@@ -49,8 +57,16 @@
           <p><span class="project-descriptor">Purpose:</span>
           <p><span class="project-descriptor">Technologies used:</span> HTML and CSS</p>
           <!-- End my-first-website -->
+
+          <!-- blogging-website -->
+          <h3 class="project-title" id="blogging-website">Blogging Website</h3>
+          <img class="img-with-border" src="img/blogging-website.png" alt="An image of the My First Website project">
+          <p><span class="project-descriptor">About:</span> Breif description here. "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi</p>
+          <p><span class="project-descriptor">Purpose:</span>
+          <p><span class="project-descriptor">Technologies used:</span> HTML and CSS</p>
+          <!-- End blogging-website -->
         </div>
-        <div class="col-xs-6 section-project">
+        <div class="col-sm-6 section-project">
           <!-- band-website -->
           <h3 class="project-title" id="band-website">Band Website</h3>
           <img class="img-with-border" src="img/band-website.png" alt="An image of the My First Website project">
@@ -63,5 +79,7 @@
       </div>
     </div>
     <!-- End Main Content -->
+    <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
