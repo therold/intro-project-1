@@ -17,16 +17,12 @@ body {
   font-weight: bold;
 }
 
-.about-me-desc {
-  vertical-align: bottom;
-}
-
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
 
 .profile-img {
-  float:left;
+  float: left;
   margin-right: 10px;
   margin-top: 20px;
 }
@@ -35,6 +31,20 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   float:right;
 }
 
+.about-me-cat {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.no-bullets {
+  list-style: none;
+}
+
+.glyphicon {
+  font-size: 32px;
+
+}
 /* This section is to fix the anchor links in index.html
    Without this the anchor links loads behind the navbar */
 #my-first-website,
