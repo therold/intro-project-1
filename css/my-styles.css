@@ -2,28 +2,21 @@ body {
   padding-top: 60px;
 }
 
-.project-title {
-  text-align: center;
-  color: #b2b8bc;
-  border: 2px solid #072d4b;
-  background: #001728;
-  padding: 4px;
+.glyphicon, h3 {
+  font-size: 28px;
+  margin: 0px;
 }
 
-.section-project {
-  margin-top: 20px;
-  padding-left:3px;
-  padding-right: 3px;
+.glyphicon {
+  float: right;
 }
 
-.project-descriptor {
-  font-weight: bold;
+.section-header {
+  background-color: #b2b8bc;
+  padding: 3px;
+  margin-bottom: 10px;
+  border: 1px solid #001728;
 }
-
-ul.nav li.dropdown:hover > ul.dropdown-menu {
-    display: block;
-}
-
 .profile-img {
   float: left;
   padding-right: 10px;
@@ -35,22 +28,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
 }
 
 .about-me-cat {
-  text-align: center;
+text-align: center;
 
 }
 
 .no-bullets {
   list-style: none;
-}
-
-/* This section is to fix the anchor links in index.html
-   Without this the anchor links loads behind the navbar */
-#my-first-website,
-#band-website,
-#blogging-website,
-#shelter-website,
-#resort-website,
-#vacation-website {
-  padding-top: 40px;
-  margin-top: -40px;
 }
