@@ -12,7 +12,7 @@
       <div class="container">
         <a class="navbar-brand">Timothy Herold</a>
         <ul class="nav navbar-nav nav-pills pull-right">
-          <li class="active dropdown">
+          <li class="dropdown">
             <a href="index.html">Projects <span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="index.html#my-first-website">My First Website</a></li>
@@ -23,7 +23,7 @@
               <li><a href="index.html#vacation-website">Vacation Website</a></li>
             </ul>
           </li>
-          <li>
+          <li class="active">
             <a href="about-me.html">About Me</a>
           </li>
         </ul>
@@ -34,25 +34,47 @@
     <!-- Main Content -->
     <div class="container">
       <!-- About me -->
-      <img class="img-responsive profile-img" src="img/tim2.jpg">
-      <h3>About me</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco lSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia </p>
+      <div class="row">
+        <div class="col-xs-12">
+            <img class="img-responsive profile-img" src="img/tim2.jpg">
+            <h3>About me</h3>
+            <p>I'm an aspiring programmer, born and raised in Portland, Oregon. Currently attending the <a href="http://www.epicodus.com/">Epicodus</a> software development school. </p>
+        </div>
+      </div>
       <!-- End About Me -->
       <!-- Work History -->
-      <h3>Work History</h3>
-      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur</p>
-      <!-- End Work History -->
-      <!-- Education -->
-      <h3>Education</h3>
-      <p>consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem</p>
-      <!-- End Education -->
-      <!-- Hobbies -->
-      <h3>Hobbies</h3>
-      <p>strud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
-      <!-- End Hobbies -->
-      <!-- End Main Content -->
+      <div class="row">
+        <div class=col-xs-4>
+          <h3>Work History</h3>
+          <ol>
+            <li>
+              <p class="work-dates">Oct 2015 - Aug 2016</p>
+              <p class=employer><strong>US Bank</strong></p>
+              <p>As an <em>IT Specialist</em> my duties included assisting internal users with various technical issues. Desktop and mobile support included.
+            </li>
+            <li>
+              <p><strong>Rodda Paint</strong></p>
+              <p>June 2010 - Oct 2015
+            </li>
+          </ol>
+        </div>
+        <!-- End Work History -->
+        <!-- Education -->
+        <div class=col-xs-4>
+          <h3>Education</h3>
+          <p>consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem</p>
+        </div>
+        <!-- End Education -->
+        <!-- Hobbies -->
+        <div class=col-xs-4>
+          <h3>Hobbies</h3>
+          <p>strud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse </p>
+          <!-- End Hobbies -->
+      </div>
     </div>
-    <script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    </body>
-    </html>
+    <!-- End Main Content -->
+  </div>
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

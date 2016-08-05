@@ -17,6 +17,10 @@ body {
   font-weight: bold;
 }
 
+.about-me-desc {
+  vertical-align: bottom;
+}
+
 ul.nav li.dropdown:hover > ul.dropdown-menu {
     display: block;
 }
@@ -25,6 +29,10 @@ ul.nav li.dropdown:hover > ul.dropdown-menu {
   float:left;
   margin-right: 10px;
   margin-top: 20px;
+}
+
+.work-dates {
+  float:right;
 }
 
 /* This section is to fix the anchor links in index.html
